@@ -13,7 +13,7 @@ class PostImage(models.Model):
 class Event(models.Model):
     title = models.CharField(max_length=30)
     content = models.TextField()
-    # please add a location field to this
+    location = models.TextField()
     date = models.DateField()  # when is the event
     unitl = models.DateField()  # when singup for the event finishes
 
